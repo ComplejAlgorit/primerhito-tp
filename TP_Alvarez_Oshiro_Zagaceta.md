@@ -55,9 +55,18 @@ Objetivos a lograr:
 - Maximizar la eficiencia en la distribución de productos, asegurando entregas rápidas y consistentes en todo momento.
 
 # 2. Descripción y visualización del conjunto de datos (Dataset)
-
+Mediante el uso de una base de datos en la que se encuentre la ubicación detallada de cada uno de los elementos en el almacén. Obtendremos los datos de la latitud, longitud y número de local o almacén en el que se ubican los objetos. Los datos recolectados son en total de 1500 intersecciones en todos los almacenes.
 ## 2.1. Descripción del conjunto de datos
+Los siguientes datos presentes en el cuadro 1, son los usados para la creación de nuestro mapa del inventario. El primer punto es el identificador del nodo o ID_Nodo, los números son las tiendas ubicadas en la ciudad y las letras los lugares para recoger los materiales para llevarlos a las tiendas, el segundo carácter es la latitud y por último la longitud del grafo. En cuanto al cuadro 2, el cuál está relacionado con las distancias de las aristas entre los nodos del grafo, el primer y segundo carácter están relacionados con los nodos y el último carácter es la distancia presente entre ambos. Todos estos datos están relacionados con la ciudad de Canta.
 
 ## 2.2. Visualización del conjunto de datos
+Visualizamos un mapa de toda Lima, imágen 1, el cuál sería la área en la que estará disponible nuestro servicio de búsqueda avanzada para encontrar el mejor camino posible para la gestión de inventarios. En base a nuestros datos, se representa el grafo obtenido según su longitud y latitud asignados a cada uno de los nodos generados. A modo de ejemplo en la imágen 2 se colocó un grafo de una parte de Lima en específico que es en Canta.
+
+Imágen 1:
+<img src="https://diadelaindependenciadelperu.com/wp-content/uploads/2022/03/mapa-lima-scaled.jpg"></img><br>
+
+
+
+
 
 # 3. Propuesta
