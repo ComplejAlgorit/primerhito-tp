@@ -40,6 +40,8 @@
 - [2.1. Descripción del conjunto de datos](#21-descripción-del-conjunto-de-datos)
 - [2.2. Visualización del conjunto de datos](#22-visualización-del-conjunto-de-datos)
 ## [3. Propuesta](#3-propuesta-1)
+## [4. Bibliografía](#4-bibliografía-1)
+## [5. Anexos](#5-anexos-1)
 
 # 1. Descripción del problema
 
@@ -94,3 +96,7 @@ La metodología a seguir para este proyecto iniciará con la recopilación y gen
 Ortiz, B. (2019). *Sistema de red de seguridad basada en el algoritmo de Dijkstra para reducir el tiempo de respuesta ante casos de inseguridad ciudadana en Abancay, 2017*. [Tesis de licenciatura, Universidad Nacional Micaela Bastidas de Apurímac] https://repositorio.unamba.edu.pe/bitstream/handle/UNAMBA/767/T_0478.pdf?sequence=1&isAllowed=y 
 
 Curo, F. (2016). *Sistema para la distribución de productos dentro de un almacén de materia prima con el algoritmo Dijkstra alternativo*. [Tesis de licenciatura, Universidad Cesar Vallejo]. https://repositorio.ucv.edu.pe/bitstream/handle/20.500.12692/101819/Curo_HFW-SD.pdf?sequence=4&isAllowed=y 
+
+# 5. Anexos
+
+Link de acceso al repositorio: https://github.com/ComplejAlgorit/primerhito-tp
