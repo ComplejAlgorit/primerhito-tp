@@ -65,8 +65,11 @@ Visualizamos un mapa de toda Lima, imágen 1, el cuál sería la área en la que
 Imágen 1:
 <img src="https://diadelaindependenciadelperu.com/wp-content/uploads/2022/03/mapa-lima-scaled.jpg"></img><br>
 
-
-
-
-
 # 3. Propuesta
+El propósito principal de este proyecto es crear un sistema que permita reducir los tiempos de transporte entre los almacenes de una empresa con sede en Lima, Perú. Este sistema busca maximizar la eficiencia en la reposición de productos y reducir los tiempos de entrega. Esto contribuirá a mejorar la rentabilidad y la sostenibilidad económica de la empresa a largo plazo, así como mejorar la experiencia del cliente.
+
+**Técnicas y metodología**
+
+Para lograr estos objetivos, se utilizará el algoritmo de Dijkstra, el cual permite encontrar la ruta más corta con el uso de grafos ponderados. El algoritmo determinará dicha ruta desde un nodo de partida hasta los demás nodos del grafo, siguien el camino en las aristas de menor peso. La eficacia de Dijkstra en este tipo de casos ha sido demostrada en investigaciones previas con resultados positivos. Por ejemplo, en el estudio de Curo (2016), evidenció mejoras significativas en la reducción del tiempo y la distancia de la distribución de productos entre secciones de un mismo almacén. Además, Ortiz (2019), logró una reducción del 65.07% en el tiempo de respuesta del serenazgo de la zona de Abancay, Apurimac, al estimar la ruta más corta a seguir por parte de los serenos para atender el llamado de un ciudadano.
+
+La metodología a seguir para este proyecto iniciará con la recopilación y generación de las posibles rutas en la ciudad de Lima, así como la ubicación de los almacenes en el mapa, las distancias entre ellos y la división por zonas para facilitar la implementación del algoritmo. Luego, se procederá a modelar el grafo, donde los nodos representarán los almacenes de la empresa y las aristas las rutas entre ellos, mientras que los pesos representarán las distancias entre los vértices. Una vez realizado esto, se pasará a implementar el algoritmo de Dijkstra, segmentado por zonas, lo que nos permitirá encontrar las rutas más cortas entre los almacenes, optimizando así el tiempo de despacho de los productos.
