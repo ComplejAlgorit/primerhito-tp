@@ -59,11 +59,26 @@ Mediante el uso de una base de datos en la que se encuentre la ubicación detall
 ## 2.1. Descripción del conjunto de datos
 Los siguientes datos presentes en el cuadro 1, son los usados para la creación de nuestro mapa del inventario. El primer punto es el identificador del nodo o ID_Nodo, los números son las tiendas ubicadas en la ciudad y las letras los lugares para recoger los materiales para llevarlos a las tiendas, el segundo carácter es la latitud y por último la longitud del grafo. En cuanto al cuadro 2, el cuál está relacionado con las distancias de las aristas entre los nodos del grafo, el primer y segundo carácter están relacionados con los nodos y el último carácter es la distancia presente entre ambos. Todos estos datos están relacionados con la ciudad de Canta.
 
+- Cuadro 1:
+  
+<img src="img/descripcion-cuadro1.png" alt="Descripción Cuadro 1" style="width: 65;"></img>
+
+- Cuadro 2:
+
+<img src="img/descripcion-cuadro2-part1.png" alt="Descripción Cuadro 2 Parte 1" style="width: 65;"></img>
+
+<img src="img/descripcion-cuadro2-part2.png" alt="Descripción Cuadro 2 Parte 2" style="width: 65;"></img>
+
 ## 2.2. Visualización del conjunto de datos
 Visualizamos un mapa de toda Lima, imágen 1, el cuál sería la área en la que estará disponible nuestro servicio de búsqueda avanzada para encontrar el mejor camino posible para la gestión de inventarios. En base a nuestros datos, se representa el grafo obtenido según su longitud y latitud asignados a cada uno de los nodos generados. A modo de ejemplo en la imágen 2 se colocó un grafo de una parte de Lima en específico que es en Canta.
 
-Imágen 1:
-<img src="https://diadelaindependenciadelperu.com/wp-content/uploads/2022/03/mapa-lima-scaled.jpg"></img><br>
+- Imagen 1:
+
+<img src="img/visualizacion-imagen1.png" alt="Visualizacion Imagen 1" style="width: 65;"></img>
+
+- Imagen 2:
+
+<img src="img/visualizacion-imagen2.png" alt="Visualizacion Imagen 2" style="width: 65;"></img>
 
 # 3. Propuesta
 El propósito principal de este proyecto es crear un sistema que permita reducir los tiempos de transporte entre los almacenes de una empresa con sede en Lima, Perú. Este sistema busca maximizar la eficiencia en la reposición de productos y reducir los tiempos de entrega. Esto contribuirá a mejorar la rentabilidad y la sostenibilidad económica de la empresa a largo plazo, así como mejorar la experiencia del cliente.
