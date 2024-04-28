@@ -20,7 +20,7 @@
             <td>U20211A046</td>
         </tr>
         <tr>
-            <td>Daiki Oscar Oshiro Yamashita</td>
+            <td>Oshiro Yamashita, Daiki Oscar </td>
             <td>U20201F846</td>
         </tr>
         <tr>
