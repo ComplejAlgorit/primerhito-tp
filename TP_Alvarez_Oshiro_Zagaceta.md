@@ -63,7 +63,7 @@ Los siguientes datos presentes en el cuadro 1, son los usados para la creación 
 
 - Cuadro 1:
   
-<img src="img/descripcion-cuadro1.png" alt="Descripción Cuadro 1" style="width: 65;"></img>
+<img src="img/CUADRON1.png" alt="Descripción Cuadro 1" style="width: 65;"></img>
 
 - Cuadro 2:
 
