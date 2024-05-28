@@ -69,7 +69,6 @@ Los siguientes datos presentes en el cuadro 1, son los usados para la creación 
 
 <img src="img/CUADRON2.png" alt="Descripción Cuadro 2 Parte 1" style="width: 65;"></img>
 
-<img src="img/descripcion-cuadro2-part2.png" alt="Descripción Cuadro 2 Parte 2" style="width: 65;"></img>
 
 ## 2.2. Visualización del conjunto de datos
 Visualizamos un mapa de toda Lima, imágen 1, el cuál sería la área en la que estará disponible nuestro servicio de búsqueda avanzada para encontrar el mejor camino posible para la gestión de inventarios. En base a nuestros datos, se representa el grafo obtenido según su longitud y latitud asignados a cada uno de los nodos generados. A modo de ejemplo en la imágen 2 se colocó un grafo de una parte de Lima en específico que es en Canta.
