@@ -84,17 +84,28 @@ Visualizamos un mapa de toda Lima, imágen 1, el cuál sería la área en la que
 # 3. Propuesta
 El propósito principal de este proyecto es crear un sistema que permita reducir los tiempos de transporte entre los almacenes de una empresa con sede en Lima, Perú. Este sistema busca maximizar la eficiencia en la reposición de productos y reducir los tiempos de entrega. Esto contribuirá a mejorar la rentabilidad y la sostenibilidad económica de la empresa a largo plazo, así como mejorar la experiencia del cliente.
 
-**Técnicas y metodología**
+<img src="./img/diagrama-bloques.PNG" alt="Diagrama de bloques del programa" style="width: 65;">
 
-Para lograr estos objetivos, se utilizará el algoritmo de Dijkstra, el cual permite encontrar la ruta más corta con el uso de grafos ponderados. El algoritmo determinará dicha ruta desde un nodo de partida hasta los demás nodos del grafo, siguiendo el camino en las aristas de menor peso. La eficacia de Dijkstra en este tipo de casos ha sido demostrada en investigaciones previas con resultados positivos. Por ejemplo, en el estudio de Curo (2016), evidenció mejoras significativas en la reducción del tiempo y la distancia de la distribución de productos entre secciones de un mismo almacén. Además, Ortiz (2019), logró una reducción del 65.07% en el tiempo de respuesta del serenazgo de la zona de Abancay, Apurimac, al estimar la ruta más corta a recorrer por parte de los serenos para atender el llamado de un ciudadano.
+Diagrama de bloques de la ruta de los datos en tiempo de ejecución del programa. Inicialmente los datos se introducen en el programa. Luego, se procesan estos datos, para después pasarlos por el algoritmo de Dijsktra. Finalmente, al terminar el algorítmo, se tendrá como resultado la ruta más corta a partir de los datos introducidos inicialmente. Esta ruta se podrá visualizar a través de una interfaz, donde se observarán los vértices que conforman el camino más corto entre el vértice de inicio y el vértice final.
+
+**Técnicas**
+
+Para lograr estos objetivos, se utilizará el algoritmo de Dijkstra modificado. Dicho algoritmo permite encontrar la ruta más corta con el uso de grafos ponderados. El algoritmo determinará dicha ruta desde un nodo de partida hasta los demás nodos del grafo, siguiendo el camino en las aristas de menor peso. Para ello, se le asigan un peso de 0 al nodo de origen, mientras que al resto se le asigna un peso infinito. Estos nodos son agrupados, para luego ser extraídos según su peso, iniciando desde el menor. Según este nodo, para los nodos adyacentes se calcula el peso desde el vértice de origen. Si este número es menor al peso inicial, se actualiza la distancia y el nodo vecino se añade al grupo. Este proceso tiene 'n' iteraciones, hasta que dicho grupo se encuentre vacío (Jonhsonbaugh, 2005)
+
+La eficacia de Dijkstra en este tipo de casos ha sido demostrada en investigaciones previas con resultados positivos. Por ejemplo, en el estudio de Curo (2016), evidenció mejoras significativas en la reducción del tiempo y la distancia de la distribución de productos entre secciones de un mismo almacén. Además, Ortiz (2019), logró una reducción del 65.07% en el tiempo de respuesta del serenazgo de la zona de Abancay, Apurimac, al estimar la ruta más corta a recorrer por parte de los serenos para atender el llamado de un ciudadano.
+
+**Metodología**
 
 La metodología a seguir para este proyecto iniciará con la recopilación y generación de las posibles rutas en la ciudad de Lima, así como la ubicación de los almacenes en el mapa, las distancias entre ellos y la división por zonas para facilitar la implementación del algoritmo. Luego, se procederá a modelar el grafo, donde los nodos representarán los almacenes de la empresa y las aristas las rutas entre ellos, mientras que los pesos representarán las distancias entre los vértices. Una vez realizado esto, se pasará a implementar el algoritmo de Dijkstra, segmentado por zonas, lo que nos permitirá encontrar las rutas más cortas entre los almacenes, optimizando así el tiempo de despacho de los productos.
 
 # 4. Bibliografía
 
+Curo, F. (2016). *Sistema para la distribución de productos dentro de un almacén de materia prima con el algoritmo Dijkstra alternativo*. [Tesis de licenciatura, Universidad Cesar Vallejo]. https://repositorio.ucv.edu.pe/bitstream/handle/20.500.12692/101819/Curo_HFW-SD.pdf?sequence=4&isAllowed=y 
+
+Jonhsonbaugh, R. (2005). *Matemáticas Discretas Sexta Edición*. https://es.slideshare.net/slideshow/matemticasdiscretas6edijohnsonbaughpdf/264047527 
+
 Ortiz, B. (2019). *Sistema de red de seguridad basada en el algoritmo de Dijkstra para reducir el tiempo de respuesta ante casos de inseguridad ciudadana en Abancay, 2017*. [Tesis de licenciatura, Universidad Nacional Micaela Bastidas de Apurímac] https://repositorio.unamba.edu.pe/bitstream/handle/UNAMBA/767/T_0478.pdf?sequence=1&isAllowed=y 
 
-Curo, F. (2016). *Sistema para la distribución de productos dentro de un almacén de materia prima con el algoritmo Dijkstra alternativo*. [Tesis de licenciatura, Universidad Cesar Vallejo]. https://repositorio.ucv.edu.pe/bitstream/handle/20.500.12692/101819/Curo_HFW-SD.pdf?sequence=4&isAllowed=y 
 
 # 5. Anexos
 
