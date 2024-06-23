@@ -98,7 +98,27 @@ La eficacia de Dijkstra en este tipo de casos ha sido demostrada en investigacio
 
 La metodología a seguir para este proyecto iniciará con la recopilación y generación de las posibles rutas en la ciudad de Lima, así como la ubicación de los almacenes en el mapa, las distancias entre ellos y la división por zonas para facilitar la implementación del algoritmo. Luego, se procederá a modelar el grafo, donde los nodos representarán los almacenes de la empresa y las aristas las rutas entre ellos, mientras que los pesos representarán las distancias entre los vértices. Una vez realizado esto, se pasará a implementar el algoritmo de Dijkstra, segmentado por zonas, lo que nos permitirá encontrar las rutas más cortas entre los almacenes, optimizando así el tiempo de despacho de los productos.
 
-# 4. Bibliografía
+# 4. Diseño del aplicativo
+
+En esta parte haremos el diseño del aplicativo mediante las etapas de la ingeniería de software.
+
+## 4.1 Análisis de requerimentos
+
+
+
+## 4.2 Especificación
+
+
+
+## 4.3 Diseño y arquitectura
+
+
+## 4.4 Programación
+
+
+
+
+# 6. Bibliografía
 
 Curo, F. (2016). *Sistema para la distribución de productos dentro de un almacén de materia prima con el algoritmo Dijkstra alternativo*. [Tesis de licenciatura, Universidad Cesar Vallejo]. https://repositorio.ucv.edu.pe/bitstream/handle/20.500.12692/101819/Curo_HFW-SD.pdf?sequence=4&isAllowed=y 
 
@@ -107,6 +127,6 @@ Jonhsonbaugh, R. (2005). *Matemáticas Discretas Sexta Edición*. https://es.sli
 Ortiz, B. (2019). *Sistema de red de seguridad basada en el algoritmo de Dijkstra para reducir el tiempo de respuesta ante casos de inseguridad ciudadana en Abancay, 2017*. [Tesis de licenciatura, Universidad Nacional Micaela Bastidas de Apurímac] https://repositorio.unamba.edu.pe/bitstream/handle/UNAMBA/767/T_0478.pdf?sequence=1&isAllowed=y 
 
 
-# 5. Anexos
+# 7. Anexos
 
 Link de acceso al repositorio: https://github.com/ComplejAlgorit/primerhito-tp
