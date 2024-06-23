@@ -115,6 +115,8 @@ En esta parte haremos el diseño del aplicativo mediante las etapas de la ingeni
 
 ## 4.4 Programación
 
+Bibliotecas implementadas
+
 
 
 
