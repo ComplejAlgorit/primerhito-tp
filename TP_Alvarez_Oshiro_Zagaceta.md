@@ -117,6 +117,7 @@ En esta parte haremos el diseño del aplicativo mediante las etapas de la ingeni
 
 Bibliotecas implementadas
 
+<img src="img/bibliotecas.png" alt="Visualizacion Imagen 1" style="width: 65;"></img>
 
 
 
