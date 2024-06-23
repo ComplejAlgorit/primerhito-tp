@@ -115,11 +115,17 @@ En esta parte haremos el diseño del aplicativo mediante las etapas de la ingeni
 
 ## 4.4 Programación
 
-Bibliotecas implementadas
+Bibliotecas implementadas:
 
 <img src="img/bibliotecas.png" alt="Visualizacion Imagen 1" style="width: 65;"></img>
 
+Clase Grafo:
 
+<img src="img/claseGrafo.png" alt="Visualizacion Imagen 1" style="width: 65;"></img>
+
+Función para calcular el peso de las aristas:
+
+<img src="img/funcionPesoA.png" alt="Visualizacion Imagen 1" style="width: 65;"></img>
 
 # 6. Bibliografía
 
