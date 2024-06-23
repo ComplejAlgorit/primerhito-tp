@@ -137,7 +137,13 @@ A continuación se visualizará los resultados entregados mediante el código pr
 
 <img src="img/resultado.png" alt="Visualizacion Imagen 1" style="width: 65;"></img>
 
-# 6. Bibliografía
+# 6. Conclusiones
+
+En conclusión, gracias al algoritmo de Dijkstra se pudo facilitar la obtención del camino más corto entre los nodos del grafo, que en este caso fueron entre las tiendas y almacenes de Canta.
+
+Se empleó una codificación en el lenguaje de Phyton para el desarrollo de la solución planteada, el cuál es muy utilizado actualmente en el mundo, por lo que este trabajo nos beneficia en este aspecto para el futuro.
+
+# 7. Bibliografía
 
 Curo, F. (2016). *Sistema para la distribución de productos dentro de un almacén de materia prima con el algoritmo Dijkstra alternativo*. [Tesis de licenciatura, Universidad Cesar Vallejo]. https://repositorio.ucv.edu.pe/bitstream/handle/20.500.12692/101819/Curo_HFW-SD.pdf?sequence=4&isAllowed=y 
 
@@ -146,6 +152,6 @@ Jonhsonbaugh, R. (2005). *Matemáticas Discretas Sexta Edición*. https://es.sli
 Ortiz, B. (2019). *Sistema de red de seguridad basada en el algoritmo de Dijkstra para reducir el tiempo de respuesta ante casos de inseguridad ciudadana en Abancay, 2017*. [Tesis de licenciatura, Universidad Nacional Micaela Bastidas de Apurímac] https://repositorio.unamba.edu.pe/bitstream/handle/UNAMBA/767/T_0478.pdf?sequence=1&isAllowed=y 
 
 
-# 7. Anexos
+# 8. Anexos
 
 Link de acceso al repositorio: https://github.com/ComplejAlgorit/primerhito-tp
