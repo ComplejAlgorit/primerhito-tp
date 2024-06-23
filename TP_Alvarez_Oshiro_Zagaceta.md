@@ -131,6 +131,12 @@ Algoritmo de Dijkstra:
 
 <img src="img/claseAlgoritmoD.png" alt="Visualizacion Imagen 1" style="width: 65;"></img>
 
+# 5. Validación de resultados y pruebas
+
+A continuación se visualizará los resultados entregados mediante el código previamente mostrado.
+
+<img src="img/resultado.png" alt="Visualizacion Imagen 1" style="width: 65;"></img>
+
 # 6. Bibliografía
 
 Curo, F. (2016). *Sistema para la distribución de productos dentro de un almacén de materia prima con el algoritmo Dijkstra alternativo*. [Tesis de licenciatura, Universidad Cesar Vallejo]. https://repositorio.ucv.edu.pe/bitstream/handle/20.500.12692/101819/Curo_HFW-SD.pdf?sequence=4&isAllowed=y 
