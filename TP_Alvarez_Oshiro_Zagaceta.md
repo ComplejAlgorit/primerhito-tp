@@ -177,9 +177,13 @@ A continuación se visualizará los resultados entregados mediante el código pr
 
 # 6. Conclusiones
 
-En conclusión, gracias al algoritmo de Dijkstra se pudo facilitar la obtención del camino más corto entre los nodos del grafo, que en este caso fueron entre las tiendas y almacenes de Canta.
+La implementación de un sistema basado en el algoritmo de Dijkstra para calcular las rutas más cortas entre almacenes puede significativamente reducir los tiempos de transporte. Esto maximiza la eficiencia en la reposición de productos, permitiendo que los almacenes mantengan niveles óptimos de inventario y respondan rápidamente a la demanda en la región de Canta.
 
-Se empleó una codificación en el lenguaje de Phyton para el desarrollo de la solución planteada, el cuál es muy utilizado actualmente en el mundo, por lo que este trabajo nos beneficia en este aspecto para el futuro.
+La recopilación detallada de datos sobre rutas, ubicaciones de almacenes y distancias permite una modelación precisa del grafo de transporte. Este enfoque basado en datos asegura que el sistema tenga una representación exacta de la red de almacenes y rutas, facilitando la implementación efectiva del algoritmo de Dijkstra y garantizando decisiones informadas y basadas en evidencia.
+
+La función para calcular el peso de las aristas, que toma en cuenta variables como la latitud, longitud, velocidad media y horas pico, proporciona una representación precisa de las condiciones reales del tráfico. Al incorporar factores como la congestión en diferentes horarios del día, se garantiza que las rutas calculadas sean realistas y aplicables a situaciones de la vida real, mejorando la confiabilidad del sistema.
+
+La posibilidad de personalizar los pesos de las aristas en función de diferentes factores, como la hora del día y la velocidad media, permite adaptar el sistema a distintas necesidades y escenarios específicos. Esta capacidad de personalización hace que el sistema sea altamente versátil y aplicable a diversas situaciones logísticas, mejorando su utilidad y aplicabilidad.
 
 # 7. Bibliografía
 
