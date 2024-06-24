@@ -102,16 +102,54 @@ La metodología a seguir para este proyecto iniciará con la recopilación y gen
 
 En esta parte haremos el diseño del aplicativo mediante las etapas de la ingeniería de software.
 
-## 4.1 Análisis de requerimentos
+## 4.1 Requisitos del aplicativo
+
+Optimización de Rutas:
+
+- Algoritmo para calcular la ruta más eficiente entre almacenes.
+- Ajustes dinámicos de rutas basados en tráfico en tiempo real y condiciones de transporte.
+
+Ubicación de Almacenes:
+
+- El sistema debe permitir la entrada y almacenamiento de las coordenadas GPS de todos los almacenes en Lima.
+- Debe proporcionar una interfaz para visualizar la ubicación de los almacenes en un mapa interactivo.
+
+Generación de Rutas:
+
+- El sistema debe permitir la entrada y almacenamiento de posibles rutas entre los almacenes.
+- Debe mostrar las rutas en el mapa interactivo para facilitar la visualización y verificación.
+
+Creación del Grafo:
+
+- El sistema debe modelar un grafo donde los nodos representen almacenes y las aristas representen rutas entre ellos.
+- Debe asignar pesos a las aristas basados en las distancias calculadas o ingresadas.
 
 
+## 4.2 Requisitos funcionales
 
-## 4.2 Especificación
+Optimización de Rutas:
 
+F1.1: El sistema debe calcular la ruta más eficiente basada en la distancia y el tráfico en tiempo real.
 
+Simulación de Escenarios:
 
-## 4.3 Diseño y arquitectura
+F2.1: El sistema debe permitir la simulación de diferentes escenarios de transporte para evaluar el impacto de cambios en rutas, volúmenes de carga, horarios, etc.
+F2.2: Los usuarios deben poder comparar resultados de diferentes simulaciones para tomar decisiones informadas.
 
+## 4.3 Requisitos no funcionales
+
+Usabilidad:
+
+NF1.1: El sistema debe ser intuitivo y fácil de usar, con una curva de aprendizaje mínima para los operadores.
+
+Fiabilidad:
+
+NF2.1: El sistema debe tener una disponibilidad del 99.9% durante las horas operativas.
+
+Compatibilidad:
+
+NF3.1: El sistema debe ser compatible con los navegadores web más populares (Chrome, Firefox, Safari, Edge).
+NF3.2: Debe ser accesible desde dispositivos móviles y tablets con sistemas operativos iOS y Android.
 
 ## 4.4 Programación
 
