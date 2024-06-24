@@ -150,6 +150,7 @@ NF2.1: El sistema debe tener una disponibilidad del 99.9% durante las horas oper
 Compatibilidad:
 
 NF3.1: El sistema debe ser compatible con los navegadores web más populares (Chrome, Firefox, Safari, Edge).
+
 NF3.2: Debe ser accesible desde dispositivos móviles y tablets con sistemas operativos iOS y Android.
 
 ## 4.4 Programación
