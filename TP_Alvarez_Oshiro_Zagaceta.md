@@ -134,6 +134,7 @@ F1.1: El sistema debe calcular la ruta más eficiente basada en la distancia y e
 Simulación de Escenarios:
 
 F2.1: El sistema debe permitir la simulación de diferentes escenarios de transporte para evaluar el impacto de cambios en rutas, volúmenes de carga, horarios, etc.
+
 F2.2: Los usuarios deben poder comparar resultados de diferentes simulaciones para tomar decisiones informadas.
 
 ## 4.3 Requisitos no funcionales
